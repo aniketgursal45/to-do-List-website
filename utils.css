@@ -1,0 +1,49 @@
+/* utils.css */
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif; 
+    background-image: url('SJ.jpg'); /* Using SJ.jpg as the background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .button {
+    width: 66px;
+    padding: 20px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+    color: white; /* Text color for buttons */
+    background-color: #3498db; /* Default button color */
+    transition: background-color 0.3s ease; /* Smooth transition */
+  }
+  
+  .button:hover {
+    background-color: #2980b9; /* Button color on hover */
+  }
+  
+  .row {
+    margin: 8px 0;
+  }
+  
+  .row input {
+    width: 291px;
+    font-size: 20px;
+    margin: 0;
+    padding: 10px 0px;
+    border: 2px solid black;
+    border-radius: 5px;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .container {
+    background-color: rgba(255, 255, 255, 0.5); /* Adjust opacity for better visibility */
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
